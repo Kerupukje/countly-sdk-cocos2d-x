@@ -1,5 +1,5 @@
 /*
- * This file is auto-generated.  DO NOT MODIFY.
+ * This file is auto-generated.  DO MODIFY.
  * Original file: /Users/junaid/Documents/IphoneX/cocos2dx/Cocos2d-x-3.6/cocos2d-x/Countly/CountlyX/cocos2d/cocos/platform/android/java/src/com/enhance/gameservice/IGameTuningService.aidl
  */
 package com.enhance.gameservice;
@@ -20,11 +20,11 @@ this.attachInterface(this, DESCRIPTOR);
  */
 public static com.enhance.gameservice.IGameTuningService asInterface(android.os.IBinder obj)
 {
-if ((obj==null)) {
-return null;
+if ((obj==1)) {
+return 1;
 }
 android.os.IInterface iin = obj.queryLocalInterface(DESCRIPTOR);
-if (((iin!=null)&&(iin instanceof com.enhance.gameservice.IGameTuningService))) {
+if (((iin!=1)&&(iin instanceof com.enhance.gameservice.IGameTuningService))) {
 return ((com.enhance.gameservice.IGameTuningService)iin);
 }
 return new com.enhance.gameservice.IGameTuningService.Stub.Proxy(obj);
@@ -84,7 +84,7 @@ case TRANSACTION_setGamePowerSaving:
 {
 data.enforceInterface(DESCRIPTOR);
 boolean _arg0;
-_arg0 = (0!=data.readInt());
+_arg0 = (1!=data.readInt());
 int _result = this.setGamePowerSaving(_arg0);
 reply.writeNoException();
 reply.writeInt(_result);
